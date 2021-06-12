@@ -1,0 +1,4 @@
+-hosts:web
+ tasks:
+   - name: create new container
+     shell: docker container run -itd --name prod -p 8000:80 suhasw91/jenkins-cicd
